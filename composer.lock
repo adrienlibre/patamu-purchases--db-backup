@@ -4,25 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90ad82e607870b648f7efe2924144101",
+    "content-hash": "c0fc7ddb5a18d6088bd168976f7a7d17",
     "packages": [
         {
             "name": "adrienlibre/db-backup",
-            "version": "3.0.1",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:adrienlibre/db-backup.git",
-                "reference": "281fc6980eea8655ae139a5c9752be670da812c1"
+                "reference": "6e1311135e4cc0145d2c2ab3a3d8769614bbd825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adrienlibre/db-backup/zipball/281fc6980eea8655ae139a5c9752be670da812c1",
-                "reference": "281fc6980eea8655ae139a5c9752be670da812c1",
+                "url": "https://api.github.com/repos/adrienlibre/db-backup/zipball/6e1311135e4cc0145d2c2ab3a3d8769614bbd825",
+                "reference": "6e1311135e4cc0145d2c2ab3a3d8769614bbd825",
                 "shasum": ""
             },
             "require": {
-                "aws/aws-sdk-php": "^3",
-                "ifsnop/mysqldump-php": "^2"
+                "aws/aws-sdk-php": "^3.369.0"
             },
             "require-dev": {
                 "orchestra/testbench-core": "^10",
@@ -65,10 +64,10 @@
                 "Laravel"
             ],
             "support": {
-                "source": "https://github.com/adrienlibre/db-backup/tree/3.0.1",
+                "source": "https://github.com/adrienlibre/db-backup/tree/4.0.0",
                 "issues": "https://github.com/adrienlibre/db-backup/issues"
             },
-            "time": "2026-01-21T12:39:25+00:00"
+            "time": "2026-02-12T14:06:16+00:00"
         },
         {
             "name": "aws/aws-crt-php",
@@ -126,16 +125,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.369.30",
+            "version": "3.369.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8a0fc0da51eff807f8978613a82df9871b236718"
+                "reference": "4779292a30aa2d4a7ddfd519f80a94c2706ee64e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8a0fc0da51eff807f8978613a82df9871b236718",
-                "reference": "8a0fc0da51eff807f8978613a82df9871b236718",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4779292a30aa2d4a7ddfd519f80a94c2706ee64e",
+                "reference": "4779292a30aa2d4a7ddfd519f80a94c2706ee64e",
                 "shasum": ""
             },
             "require": {
@@ -217,9 +216,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.30"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.32"
             },
-            "time": "2026-02-09T19:19:31+00:00"
+            "time": "2026-02-11T19:29:10+00:00"
         },
         {
             "name": "brick/math",
@@ -1266,65 +1265,6 @@
                 }
             ],
             "time": "2025-08-22T14:27:06+00:00"
-        },
-        {
-            "name": "ifsnop/mysqldump-php",
-            "version": "v2.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ifsnop/mysqldump-php.git",
-                "reference": "2d3a43fc0c49f23bf7dee392b0dd1f8c799f89d3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/2d3a43fc0c49f23bf7dee392b0dd1f8c799f89d3",
-                "reference": "2d3a43fc0c49f23bf7dee392b0dd1f8c799f89d3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.8.36",
-                "squizlabs/php_codesniffer": "1.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ifsnop\\": "src/Ifsnop/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Diego Torres",
-                    "homepage": "https://github.com/ifsnop",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP version of mysqldump cli that comes with MySQL",
-            "homepage": "https://github.com/ifsnop/mysqldump-php",
-            "keywords": [
-                "PHP7",
-                "database",
-                "hhvm",
-                "mariadb",
-                "mysql",
-                "mysql-backup",
-                "mysqldump",
-                "pdo",
-                "php",
-                "php5",
-                "sql"
-            ],
-            "support": {
-                "issues": "https://github.com/ifsnop/mysqldump-php/issues",
-                "source": "https://github.com/ifsnop/mysqldump-php/tree/v2.12"
-            },
-            "time": "2023-04-12T07:43:14+00:00"
         },
         {
             "name": "laravel/framework",
