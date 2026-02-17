@@ -96,7 +96,7 @@ return [
 
         'stderr' => [
             'driver' => 'monolog',
-            'level' => env('LOG_LEVEL', 'debug'),
+            'level' => env('LOG_LEVEL_STDERR', 'debug'),
             'handler' => StreamHandler::class,
             'handler_with' => [
                 'stream' => 'php://stderr',
@@ -129,7 +129,7 @@ return [
 
         'bugsnag' => [
             'driver' => 'bugsnag',
-            'level' => env('LOG_LEVEL', 'error'),
+            'level' => env('LOG_LEVEL_BUGSNAG', 'error'),
         ]
       ],
 
